@@ -11,13 +11,13 @@ xcopy /s DOSBOX\* File_Backup.bak\DOSBOX\*
 move dosbox_redguard.conf File_Backup.bak\dosbox_redguard.conf
 xcopy /s Redguard\SYSTEM.INI File_Backup.bak\Redguard\SYSTEM.INI*
 
-xcopy /s Dosbox_X_ESR\Dosbox_X_ESR\DOSBOX\* DOSBOX /Y
+xcopy /s Dosbox_X_ESR\DOSBOX\* DOSBOX /Y
 
-xcopy /s Dosbox_X_ESR\Dosbox_X_ESR\dosbox_redguard.conf* .\ /Y
+xcopy /s Dosbox_X_ESR\dosbox_redguard.conf* .\ /Y
 
-xcopy /s Dosbox_X_ESR\Dosbox_X_ESR\glide2x.dll Redguard\glide2x.dll* /Y
+xcopy /s Dosbox_X_ESR\glide2x.dll Redguard\glide2x.dll* /Y
 
-xcopy /s Dosbox_X_ESR\Dosbox_X_ESR\SYSTEM.INI Redguard\SYSTEM.INI* /Y
+xcopy /s Dosbox_X_ESR\SYSTEM.INI Redguard\SYSTEM.INI* /Y
 
 goto commonexit
 
